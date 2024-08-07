@@ -1,0 +1,248 @@
+body{
+    margin-left: 130px;
+    font-family:open sans, sans-serif;
+}
+.side-menu{
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    width: 140px;
+}
+.side-menu .menu-list{
+    display:flex;
+    flex-direction: column;
+    margin: 1px;
+    line-height: 90px;
+    text-align: center;
+}
+.side-menu .menu-list a{
+    text-decoration: none;
+    color: rgb(82, 78, 78);
+    font-size: 19px;
+}
+
+.side-menu .menu-list a:hover{
+    color: rgb(22, 22, 22);
+}
+
+
+.blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: balance;
+    margin: 30px;
+    width: 700px;
+    margin-left: 60px;
+}
+.blog .update{
+    color: rgb(26, 24, 24);
+}
+
+.blog .court{
+    margin-left: 80px;
+    margin-top: 150px;
+    
+}
+.blog .court p{
+    line-height: 7px;
+    
+}
+.blog .court img{
+    margin-top: 30px;
+}
+.blog .court .Time{
+    color: rgb(66, 65, 65);
+    font-size: 18px;
+}
+.blog .court h4{
+    color: rgb(53, 52, 52);
+}
+
+
+.news-paper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 25px;
+}
+.news-paper .puch{
+    margin: 20px;
+    width: 700px;
+}
+.news-paper .puch img{
+    width: 600px;
+}
+.news-paper .new-class{
+    width: 400px;
+    margin-top: 20px;
+}
+.news-paper .new-class .nigeria{
+    margin-top: 100px;
+}
+
+/*another container*/
+.update-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    margin-top: 20px;
+}
+.update-1 .mtn-update{
+    margin-left: 40px;
+    width: 700px;
+}
+.update-1 .mtn-update img{
+    width: 700px;
+    margin-top: 30px;
+}
+
+.update-1 .protest-container{
+    width: 350px;
+}
+.update-1 .protest-container img{
+    width: 280px;
+}
+.update-1 .protest-container p{
+    font-size: 16px;
+}
+.update-1 .protest-container .end-protest1{
+    margin-top: 150px;
+}
+
+@media screen and (max-width:650px) {
+    .side-menu{
+        position:fixed;
+        width: 20px;
+        top: 80;
+    }
+    .side-menu .menu-list{
+        margin:1px;
+    }
+
+    .side-menu .menu-list a{
+        font-size: 16px;
+    }
+
+    .blog{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        flex-wrap: wrap;
+        margin: 0;
+        width: 300px;
+        margin-left:0;
+        left: 0;
+    }
+
+
+        .blog .obasenjo h2{
+            font-size: 20px;
+            margin: 0;
+            width: 230px;
+        }
+        .blog .obasenjo p{
+            font-size: 15px;
+        }
+        .blog .obasenjo img{
+            width: 220px;
+            border-radius: 30px;
+        }
+        .blog .obasenjo .update{
+            font-size: 17px;
+            width: 230px;
+            font-style: normal;
+        }
+
+        .blog .court{
+            margin-left: 10px;
+            margin-top: 10px;
+            
+        }
+        .blog .court p{
+            font-size: 15px;
+            
+        }
+        .blog .court img{
+            margin-top: 1px;
+            width: 200px;
+            border-radius: 20px;
+        }
+        .blog .court .Time{
+            font-size: 18px;
+        }
+        .blog .court h4{
+            width: 200px;
+        }
+        
+        .news-paper {
+            margin:0;
+        }
+
+        .news-paper .puch{
+            margin: 10px;
+            width: 240px;
+        }
+
+        .news-paper .puch img{
+            width: 210px;
+            border-radius: 20px;
+        }
+        .news-paper .new-class{
+            width: 230px;
+            margin-top: 10px;
+        }
+        .news-paper .new-class img{
+            width: 210px;
+            border-radius: 20px;
+        }
+        .news-paper .new-class .nigeria{
+            margin-top: 10px;
+        }
+
+            /*another container*/
+    .update-1{
+        column-gap:1px;
+        margin-top: 1px;
+    }
+
+    .update-1 .mtn-update{
+        margin-left:10px;
+        width: 210px;
+    }
+
+
+    .update-1 .mtn-update img{
+        width: 210px;
+        margin-top:1px;
+        border-radius: 20px;
+    }
+    
+    .update-1 .protest-container{
+        width: 210px;
+    }
+    .update-1 .protest-container img{
+        width: 210px;
+    }
+    .update-1 .protest-container p{
+        font-size: 15px;
+    }
+    .update-1 .protest-container .end-protest1{
+        margin-top: 1px;
+    }
+    
+    body{
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+        margin-left: 110px;
+    
+    }
+    
+        
+}

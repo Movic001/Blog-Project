@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(226, 208, 180);
+}
+
+h2{
+    text-align: center;
+}
+h1{
+    margin-left: 20px;
+}
+.container form input, textarea{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 6px;
+    font-size: 19px;
+    width: 350px;
+    
+}
+
+.container .submit{
+    background-color: rgb(56, 41, 41);
+    color: white;
+    font-size: 23px;
+}
+
+.container .submit:hover{
+    background-color: blue;
+    text-decoration: double;
+    cursor: pointer;
+}
+
+.container form ::placeholder{
+    font-weight: bold;
+    color: rgb(75, 70, 70);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+
+}
+.container p{
+    margin-left: 20px;
+    line-height: 3px;
+}
+.male, .female{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    line-height: 55px;
+    margin-left:10px;
+}
+
+.news-update{
+    background-color: blue;
+    height: 100px;
+    padding: 60px;
+    border-radius: 50px;
+}
+
+.news-update .call{
+    background-color: rgb(41, 41, 201);
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 1px;
+    margin-left: 80px;
+}
+.news-update .call:hover{
+    background-color: rgb(56, 41, 41);
+}
+.news-update .call a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.news-update h3{
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 27px;
+    color: white;
+}
+
+@media screen and (max-width:650px) {
+    h1{
+        font-size: 21px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    .container form input, textarea{
+        padding: 7px;
+        margin: 10px;
+        border-radius: 6px;
+        font-size: 17px;
+        width: 300px;
+        
+    }
+    .news-update{
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    .news-update h3{
+        margin-top: 2px;
+        margin-left: 20px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .news-update .call{
+        padding: 10px;
+        border-radius: 10px;
+        width: 200px;
+        margin-top: 1px;
+        margin-left: 80px;
+    }
+
+}

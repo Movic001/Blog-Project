@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    column-gap: 20px;
+}
+h1{
+    margin-left: 120px;
+}
+
+
+@media screen and (max-width:650px) {
+    h1{
+        margin-left: 30px;
+        font-size: 22px;
+    } 
+    .container{
+        margin: 20px;
+    }
+    .container .nigeria img{
+        width: 300px;
+        margin-left: 24px;
+        border-radius: 30px;
+    }
+
+    .container .nigeria h2{
+        margin-left: 20px;
+        font-size: 21px;
+    }
+
+    .container .nigeria p{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+        .container .international img{
+            width: 300px;
+            margin-left: 24px;
+            border-radius: 30px;
+        }
+        .container .international h2{
+            margin-left: 20px;
+            font-size: 21px;
+        }
+         .container .international p{
+            margin-left: 20px;
+            font-size: 20px;
+         }
+}
